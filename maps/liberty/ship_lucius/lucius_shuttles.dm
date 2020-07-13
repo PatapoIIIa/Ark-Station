@@ -38,7 +38,7 @@
 	multiz = 1
 	range = 1
 	current_location = "nav_lucius_start"
-	current_dock_target = "lucius_dock"
+	dock_target = "lucius_dock"
 	shuttle_area = list(
 		/area/lucius/storage, /area/lucius/hallway/second, /area/lucius/hangar, /area/lucius/maintenance/second, /area/lucius/engineering, /area/lucius/fuel, /area/lucius/thrust,
 		/area/lucius/bridge, /area/lucius/captain, /area/lucius/hallway/first/fore, /area/lucius/hallway/first/aft, /area/lucius/maintenance/first/port, /area/lucius/ano,
@@ -59,7 +59,8 @@
 	warmup_time = 5
 	current_location = "nav_lazarev_dock"
 	range = 2
-	dock_target = "lazarev_dock"
+	dock_target = "lazarev_shuttle"
+	logging_home_tag = "nav_lazarev_dock"
 	shuttle_area = /area/lucius/lazarev
 	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
