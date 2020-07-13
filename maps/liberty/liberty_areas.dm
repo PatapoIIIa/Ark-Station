@@ -217,6 +217,10 @@
 	name = "\improper Hotel - Room 302"
 	icon_state = "hotel_room_302"
 
+/area/liberty/hotel/room/three_zero_three
+	name = "\improper Hotel - Room 303"
+	icon_state = "hotel_room_303"
+
 /area/liberty/hotel/hallway/west
 	name = "\improper Hotel - West Hallway"
 	icon_state = "hotel_west"
