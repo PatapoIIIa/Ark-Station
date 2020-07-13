@@ -8,13 +8,17 @@
 	icon = 'maps/liberty/icons/misc.dmi'
 	icon_state = "paint_stripe"
 
-// LIBERTY FEATURES
+////////////////////////////////////// LIBERTY FEATURES //////////////////////////////////////
+
+// PAINTS
 
 /obj/effect/paint/sfp_blue
 	color = COLOR_SFP_BLUE
 
 /obj/effect/paint_stripe/sfp_blue
 	color = COLOR_SFP_BLUE
+
+// DECALS
 
 /obj/effect/floor_decal/borderfloorsfp
 	name = "border floor"
@@ -36,3 +40,27 @@
 /obj/effect/floor_decal/borderfloorsfp/shifted
 	icon = 'maps/liberty/icons/decals.dmi'
 	icon_state = "borderfloor_white_shifted"
+
+/obj/effect/floor_decal/spline/plain/yellow_warning
+	color = "#d2d53d"
+
+/obj/effect/floor_decal/industrial/stop_sign
+	icon = 'maps/liberty/icons/decals.dmi'
+	icon_state = "stop_sign"
+
+/obj/effect/floor_decal/industrial/arrow
+	name = "arrow"
+	icon = 'maps/liberty/icons/decals.dmi'
+	icon_state = "arrow"
+
+/obj/effect/floor_decal/industrial/broken
+	icon = 'maps/liberty/icons/decals.dmi'
+	icon_state = "broken"
+
+/obj/effect/floor_decal/industrial/warning/narrow
+	icon = 'maps/liberty/icons/decals.dmi'
+	icon_state = "warning_narrow"
+	color = null
+
+/obj/effect/floor_decal/industrial/warning/narrow/corner
+	icon_state = "warningcorner_narrow"
