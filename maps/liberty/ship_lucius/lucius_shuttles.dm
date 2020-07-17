@@ -1,3 +1,6 @@
+
+// COMPUTERS
+
 /obj/machinery/computer/shuttle_control/explore/lucius
 	name = "SEV Lucius control console"
 	req_access = list(access_sol_command, access_sol_pilot)
@@ -7,6 +10,8 @@
 	name = "MRM Lazarev control console"
 	req_access = list(access_sol_pilot)
 	shuttle_tag = "MRM Lazarev"
+
+// SHIP VARIABLES
 
 /obj/effect/overmap/visitable/ship/landable/lucius
 	name = "SEV Lucius"
@@ -22,7 +27,7 @@
 	initial_restricted_waypoints = list(
 		"Lucius Hangar" = list("nav_lazarev_dock")
 	)
-	initial_generic_waypoints = list(null) // PREPARE GENERIC WPTS!
+//	initial_generic_waypoints = list(null) // PREPARE GENERIC WPTS!
 
 /obj/effect/overmap/visitable/ship/landable/lazarev
 	name = "MRM Lazarev"
@@ -31,6 +36,8 @@
 	color = "#bd0606"
 	vessel_mass = 750
 	vessel_size = SHIP_SIZE_TINY
+
+// AUTODOCKS
 
 /datum/shuttle/autodock/overmap/lucius
 	name = "SEV Lucius"
@@ -44,15 +51,12 @@
 		/area/lucius/bridge, /area/lucius/captain, /area/lucius/hallway/first/fore, /area/lucius/hallway/first/aft, /area/lucius/maintenance/first/port, /area/lucius/ano,
 		/area/lucius/maintenance/first/starboard, /area/lucius/med, /area/lucius/crew_quarters, /area/lucius/cryo,/area/lucius/telecomms, /area/lucius/atmos, /area/lucius/xeno
 		)
-	defer_initialisation = TRUE
 	knockdown = FALSE
 	flags = SHUTTLE_FLAGS_PROCESS
 	skill_needed = SKILL_NONE
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/sol
-
-/obj/effect/shuttle_landmark/lucius/start
-	name = "SEV Lucius"
-	landmark_tag = "nav_lucius_start"
+	knockdown = 0
+	defer_initialisation = TRUE
 
 /datum/shuttle/autodock/overmap/lazarev
 	name = "MRM Lazarev"
@@ -62,12 +66,18 @@
 	dock_target = "lazarev_shuttle"
 	logging_home_tag = "nav_lazarev_dock"
 	shuttle_area = /area/lucius/lazarev
-	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
 	skill_needed = SKILL_NONE
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	mothershuttle = "SEV Lucius"
 	fuel_consumption = 3
+	defer_initialisation = TRUE
+
+// NAVPOINTS
+
+/obj/effect/shuttle_landmark/lucius/start
+	name = "Uncharted Space"
+	landmark_tag = "nav_lucius_start"
 
 /obj/effect/shuttle_landmark/lazarev/start
 	name = "Lazarev Hangar"
