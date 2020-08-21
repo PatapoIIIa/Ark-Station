@@ -69,6 +69,8 @@
 
 #define isspace(A) istype(A, /area/space)
 
+#define isspaceturf(A) istype(A, /turf/space)
+
 #define ispAI(A) istype(A, /mob/living/silicon/pai)
 
 #define isrobot(A) istype(A, /mob/living/silicon/robot)
@@ -104,9 +106,9 @@
 #define from_target(target, receiver)         target >> (receiver)
 
 /// Common use
-#define to_world(message)                     to_target(world, message)
+#define legacy_chat(target, message)          to_target(target, message)
+#define to_world(message)                     to_chat(world, message)
 #define to_world_log(message)                 to_target(world.log, message)
-#define to_chat(target, message)              to_target(target, message)
 #define sound_to(target, sound)               to_target(target, sound)
 #define image_to(target, image)               to_target(target, image)
 #define show_browser(target, content, title)  to_target(target, browse(content, title))
@@ -126,19 +128,23 @@
 
 #define CanInteract(user, state) (CanUseTopic(user, state) == STATUS_INTERACTIVE)
 
+#define CanDefaultInteract(user) (CanUseTopic(user, DefaultTopicState()) == STATUS_INTERACTIVE)
+
 #define CanInteractWith(user, target, state) (target.CanUseTopic(user, state) == STATUS_INTERACTIVE)
 
 #define CanPhysicallyInteract(user) (CanUseTopicPhysical(user) == STATUS_INTERACTIVE)
 
 #define CanPhysicallyInteractWith(user, target) (target.CanUseTopicPhysical(user) == STATUS_INTERACTIVE)
 
-#define QDEL_NULL_LIST(x) if(x) { for(var/y in x) { qdel(y) }}; if(x) {x.Cut(); x = null } // Second x check to handle items that LAZYREMOVE on qdel.
+#define QDEL_NULL_LIST(x) if(x) { for(var/y in x) { qdel(y) }}; if(x) {x.Cut(); x = null; } // Second x check to handle items that LAZYREMOVE on qdel.
 
 #define QDEL_NULL(x) if(x) { qdel(x) ; x = null }
 
 #define QDEL_IN(item, time) addtimer(CALLBACK(GLOBAL_PROC, .proc/qdel, item), time, TIMER_STOPPABLE)
 
 #define DROP_NULL(x) if(x) { x.dropInto(loc); x = null; }
+
+#define DROP_NULL_LIST(x) if(x) { for(var/atom/movable/y in x) { y.dropInto(loc) }}; x.Cut(); x = null;
 
 #define ARGS_DEBUG log_debug("[__FILE__] - [__LINE__]") ; for(var/arg in args) { log_debug("\t[log_info_line(arg)]") }
 

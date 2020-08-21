@@ -32,6 +32,11 @@
 	path = /obj/item/clothing/head/flatcap
 	flags = GEAR_HAS_COLOR_SELECTION
 
+/datum/gear/head/mariner
+	display_name = "mariner's cap, colour select"
+	path = /obj/item/clothing/head/mariner
+	flags = GEAR_HAS_COLOR_SELECTION
+
 /datum/gear/head/cap
 	display_name = "cap selection"
 	path = /obj/item/clothing/head
@@ -167,11 +172,11 @@
 	display_name = "balaclava"
 	path = /obj/item/clothing/mask/balaclava
 
-/datum/gear/head/beret/corporate
+/datum/gear/head/corporateberet
 	display_name = "corporate beret selection"
 	path = /obj/item/clothing/head/beret
 
-/datum/gear/head/beret/corporate/New()
+/datum/gear/head/corporateberet/New()
 	..()
 	var/list/options = list()
 	options += /obj/item/clothing/head/beret/pcrc

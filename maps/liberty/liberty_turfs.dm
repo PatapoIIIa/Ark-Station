@@ -27,3 +27,8 @@
 /turf/simulated/wall/r_wall/liberty/Initialize()
 	. = ..()
 	color = ""
+
+// WOOD FLOOR DECAL FIX
+
+/decl/flooring/wood
+	can_paint = 1

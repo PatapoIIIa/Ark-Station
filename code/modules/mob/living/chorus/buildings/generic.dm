@@ -1,6 +1,7 @@
 /obj/structure/chorus/processor
 	name = "Processor"
 	desc = "Activates through process, not clicking"
+	var/warning = TRUE
 
 /obj/structure/chorus/processor/Initialize()
 	. = ..()
@@ -11,7 +12,9 @@
 	. = ..()
 
 /obj/structure/chorus/processor/chorus_click(var/mob/living/chorus/C)
-	to_chat(C, "<span class='warning'>\The [src] is automatic; it does not need to be activated</span>")
+	if(warning)
+		to_chat(C, SPAN_WARNING("\The [src] is automatic; it does not need to be activated"))
+		warning = FALSE
 
 /obj/structure/chorus/processor/clicker
 	name = "Clicker"
@@ -117,7 +120,7 @@
 	if(owner.pylon != src)
 		if(!(M in intuned))
 			return
-	to_chat(owner, "\icon[src] <span class='game say'><span class='name'>[M]</span> (<A href='?src=\ref[owner];jump=\ref[src];'>P</A>) [verb], [owner.pylon == src ? "<b>" : ""]<span class='message'><span class='body'>\"[text]\"</span></span>[owner.pylon == src ? "</b>" : ""]</span>")
+	to_chat(owner, "[icon2html(src, owner)]] <span class='game say'><span class='name'>[M]</span> (<A href='?src=\ref[owner];jump=\ref[src];'>P</A>) [verb], [owner.pylon == src ? "<b>" : ""]<span class='message'><span class='body'>\"[text]\"</span></span>[owner.pylon == src ? "</b>" : ""]</span>")
 
 /obj/structure/chorus/pylon/proc/speak(var/message)
 	audible_message("<b>\The [src]</b> [speaking_verb], \"[message]\"")

@@ -11,7 +11,7 @@
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	alt_titles = list(
 		"Corporate Liaison",
-		"Union Representative" = /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison/union_rep,
+		"Union Representative",
 		"Corporate Representative",
 		"Corporate Executive"
 		)
@@ -22,7 +22,7 @@
 	                    SKILL_FINANCE		= SKILL_BASIC)
 	skill_points = 20
 	access = list(access_liaison, access_bridge, access_solgov_crew,
-						access_nanotrasen, access_commissary)
+						access_nanotrasen, access_commissary, access_torch_fax)
 	software_on_spawn = list(/datum/computer_file/program/reports)
 
 /datum/job/liaison/get_description_blurb()
@@ -59,14 +59,14 @@
 	                    SKILL_WEAPONS     = SKILL_MAX,
 	                    SKILL_FORENSICS   = SKILL_MAX)
 	alt_titles = list(
-		"Union Enforcer" = /decl/hierarchy/outfit/job/torch/passenger/corporate_bodyguard/union,
+		"Union Enforcer",
 		"Loss Prevention Associate",
 		"Asset Protection Agent"
 	)
 	skill_points = 20
 	access = list(access_liaison, access_bridge, access_solgov_crew,
 						access_nanotrasen, access_commissary,
-						access_sec_guard)
+						access_sec_guard, access_torch_fax)
 	defer_roundstart_spawn = TRUE
 
 /datum/job/bodyguard/is_position_available()
