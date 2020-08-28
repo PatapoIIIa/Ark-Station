@@ -138,3 +138,14 @@
 
 /obj/effect/floor_decal/industrial/number/f/one
 	icon_state = "f_one"
+
+/obj/effect/floor_decal/beach
+	name = "coastline"
+	icon = 'icons/misc/beach.dmi'
+	icon_state = "sandcorner"
+
+/obj/effect/floor_decal/beach/inner
+	icon_state = "sandcorner_inner"
+
+/obj/effect/floor_decal/beach/inner/smooth
+	icon_state = "sandcorner_inner_good"

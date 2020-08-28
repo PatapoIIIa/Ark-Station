@@ -3594,136 +3594,224 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/lucius/cryo)
-"kb" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning/corner{
+"jF" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/xeno)
-"kd" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/machinery/telecomms/receiver/preset_lucius,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/lucius/telecomms)
-"kP" = (
-/obj/effect/floor_decal/corner/blue/full,
-/obj/machinery/disposal,
-/obj/effect/floor_decal/industrial/hatch/red,
-/obj/structure/sign/warning/deathsposal{
-	pixel_y = 32
-	},
-/obj/structure/disposalpipe/trunk,
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/fore)
-"kU" = (
-/obj/structure/hygiene/sink{
-	dir = 4;
-	pixel_x = 11;
-	pixel_y = 5
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/item/weapon/storage/mirror{
-	pixel_x = 24;
-	pixel_y = 8
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
-	dir = 9
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/lucius/crew_quarters)
-"ld" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/fore)
-"lx" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/aft)
-"lF" = (
-/obj/machinery/optable,
-/obj/machinery/light{
+/area/lucius/xeno)
+"jG" = (
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/blue/mono,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/med)
-"lN" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 1
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
 	},
-/obj/structure/disposaloutlet{
-	dir = 1
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/industrial/warning/cee,
-/obj/structure/sign/warning{
-	dir = 1;
-	pixel_y = -32
+/turf/simulated/floor/tiled/white,
+/area/lucius/cryo)
+"jN" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	controlled = 0;
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/obj/structure/sign/warning/vent_port{
+	dir = 4;
+	pixel_x = -32
 	},
 /turf/simulated/floor/shuttle_ceiling/sol,
 /area/lucius/ano)
-"lP" = (
+"ke" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/obj/machinery/air_sensor{
+	id_tag = "lucius_ano"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/lucius/ano)
+"kg" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/xeno)
+"kj" = (
+/obj/structure/font/i{
+	icon_state = "i";
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/bridge)
+"kr" = (
+/obj/structure/table/steel,
+/obj/effect/floor_decal/borderfloor{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/obj/effect/floor_decal/borderfloor/corner2{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner2{
+	dir = 4
+	},
+/obj/machinery/reagentgrinder/juicer,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"ks" = (
+/obj/effect/overmap/visitable/sector/luciusspace,
+/turf/space,
+/area/space)
+"ky" = (
 /obj/structure/font/five,
 /turf/simulated/floor/shuttle_ceiling/sol,
 /area/lucius/maintenance/first/port)
-"lV" = (
-/obj/structure/bed/chair/comfy/blue{
-	dir = 1
+"kJ" = (
+/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/machinery/door/blast/regular/open{
+	icon_state = "pdoor0";
+	id_tag = "lucius_bridge";
+	name = "Bridge Blast Doors"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
 /area/lucius/bridge)
-"mr" = (
+"kL" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/corner/blue/mono,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"lm" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/port)
+"lp" = (
+/obj/item/weapon/stool,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"ls" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"lF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"lK" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/blast/regular/open{
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "lucius_3";
+	name = "Third Compartment Lockdown Blast Doors"
 	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
+/obj/machinery/door/airlock/research{
+	frequency = 1379;
+	id_tag = "lucius_xeno_outer";
+	name = "Research Bay Exterior Access"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/device/radio/intercom/broadcasting{
-	pixel_y = 24
+/obj/machinery/access_button/airlock_exterior{
+	master_tag = "lucius_xeno";
+	pixel_y = 24;
+	req_access = list("ACCESS_SOL_SCI")
 	},
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/lucius/xeno)
+"lN" = (
+/obj/item/weapon/stool,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"lS" = (
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"lT" = (
+/obj/machinery/light/small/emergency,
+/obj/machinery/vending/wallmed2{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/cryo)
+"mf" = (
+/obj/machinery/atmospherics/binary/pump{
+	name = "Supply to Buffer"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/xeno)
+"mx" = (
+/obj/structure/font/s{
+	dir = 1;
+	icon_state = "s";
+	pixel_x = 12
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/bridge)
+"mS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/lucius/hallway/first/aft)
-"mF" = (
+"mV" = (
 /obj/machinery/atmospherics/binary/pump{
 	name = "Supply to Abomalous Chamber"
 	},
@@ -3734,7 +3822,125 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/lucius/ano)
-"mQ" = (
+"mX" = (
+/obj/machinery/optable,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/mono,
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/med)
+"mY" = (
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/shipsensors,
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/bridge)
+"no" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan,
+/obj/effect/wallframe_spawn/reinforced/bare,
+/obj/machinery/door/firedoor/sol,
+/obj/machinery/meter,
+/turf/simulated/floor/plating,
+/area/lucius/atmos)
+"nA" = (
+/obj/structure/table/steel,
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/item/weapon/storage/mre/random,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"nG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"oj" = (
+/obj/structure/disposalpipe/segment/bent,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/ano)
+"ok" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/turf/simulated/floor/tiled/techmaint,
+/area/lucius/hallway/first/aft)
+"om" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"ov" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"oJ" = (
+/obj/structure/font/five{
+	icon_state = "5";
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/starboard)
+"oM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"oO" = (
+/obj/machinery/atmospherics/binary/pump/on{
+	dir = 4;
+	name = "Air to Supply"
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/steel_grid,
+/area/lucius/atmos)
+"oP" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/telecomms/receiver/preset_lucius,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/lucius/telecomms)
+"oS" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	frequency = 1441;
+	id_tag = "lucius_xeno_in"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced,
+/area/lucius/xeno)
+"oW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
 	},
@@ -3744,315 +3950,45 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/lucius/atmos)
-"nc" = (
-/obj/machinery/atmospherics/tvalve{
-	dir = 1;
-	name = "Anomalous Chamber Supply Switching Valve"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm/sol{
-	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/ano)
-"nu" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/lucius/atmos)
-"nx" = (
-/obj/structure/table/steel,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"nB" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/xeno)
-"nQ" = (
-/obj/structure/closet/firecloset,
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/port)
-"nS" = (
-/obj/structure/table/steel,
-/obj/item/device/pipe_painter,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/item/weapon/storage/toolbox/mechanical,
-/obj/item/device/radio/intercom/broadcasting{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/lucius/atmos)
-"nT" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/door/blast/regular/open{
-	dir = 8;
-	icon_state = "pdoor0";
-	id_tag = "lucius_2";
-	name = "Second Compartment Lockdown Blast Doors"
-	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/techmaint,
-/area/lucius/maintenance/first/starboard)
-"ol" = (
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/bridge)
-"om" = (
-/obj/machinery/computer/modular/preset/cardslot/command,
-/obj/effect/floor_decal/corner/blue/half,
-/obj/effect/floor_decal/borderfloorblack{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"oK" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
-	},
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 9
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/lucius/atmos)
-"oM" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
-/obj/machinery/door/blast/regular/open{
-	icon_state = "pdoor0";
-	id_tag = "lucius_bridge";
-	name = "Bridge Blast Doors"
-	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/bridge)
-"pa" = (
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/fore)
-"pb" = (
-/obj/structure/font/u{
-	dir = 1;
-	icon_state = "u";
-	pixel_x = -12
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
 "pp" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"pr" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/table/standard,
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
-/obj/item/weapon/storage/box/botanydisk,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"pD" = (
-/obj/structure/closet/emcloset,
-/obj/effect/floor_decal/corner/blue/full,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/fore)
-"pH" = (
-/obj/machinery/door/airlock/hatch/maintenance,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/techmaint,
-/area/lucius/maintenance/first/port)
-"pP" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos/tank{
-	dir = 8;
-	icon_state = "map_vent_in";
-	id_tag = "lucius_xeno_out";
-	internal_pressure_bound = 0;
-	internal_pressure_bound_default = 0
-	},
-/turf/simulated/floor/reinforced,
-/area/lucius/xeno)
-"pW" = (
-/obj/machinery/light/small/red{
-	dir = 8
-	},
-/obj/machinery/telecomms/bus/preset_lucius,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/lucius/telecomms)
-"qm" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 9
-	},
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"qn" = (
-/obj/structure/font/l{
-	pixel_x = 12
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/bridge)
-"qB" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/blast/regular/open{
-	dir = 2;
-	icon_state = "pdoor0";
-	id_tag = "lucius_xeno_2";
-	name = "Chamber Blast Doors"
-	},
-/obj/effect/wallframe_spawn/reinforced/bare,
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/xeno)
-"qV" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/catwalk_plated/white,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/ano)
-"qY" = (
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"rh" = (
-/obj/machinery/atmospherics/binary/pump/on{
-	dir = 4;
-	name = "Air to Supply"
-	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/steel_grid,
-/area/lucius/atmos)
-"rx" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
-	dir = 5
+/turf/simulated/floor/plating,
+/area/lucius/ano)
+"pw" = (
+/obj/structure/hygiene/sink{
+	pixel_y = -16
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
-	dir = 8
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/blue/border,
+/obj/effect/floor_decal/borderfloorwhite/corner2,
+/obj/effect/floor_decal/corner/blue/bordercorner2,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"rK" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/red,
-/area/lucius/crew_quarters)
-"sf" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 9
-	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/obj/structure/closet/secure_closet/medical_torchsenior,
 /turf/simulated/floor/tiled/white,
 /area/lucius/med)
-"ss" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1
+"pA" = (
+/obj/machinery/atmospherics/omni/filter{
+	active_power_usage = 7500;
+	tag_east = 1;
+	tag_north = 2;
+	tag_south = 3
 	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/ano)
-"tg" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/port)
-"ti" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/ano)
-"tp" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/lucius/atmos)
+"pD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
@@ -4073,49 +4009,138 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/lucius/ano)
-"tr" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/simulated/floor/plating,
+"pI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/xeno)
+"pR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet/red,
+/area/lucius/crew_quarters)
+"pV" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/table/standard,
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
+/obj/item/weapon/storage/box/botanydisk,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"qb" = (
+/obj/machinery/light/navigation/delay2,
+/turf/simulated/floor/shuttle_ceiling/sol,
 /area/lucius/maintenance/first/starboard)
-"tu" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
+"qh" = (
+/obj/effect/catwalk_plated,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/lucius/crew_quarters)
+"qt" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/port)
+"qA" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"qK" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/aft)
+"rC" = (
 /obj/effect/catwalk_plated,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/lucius/hallway/first/aft)
-"tx" = (
-/turf/simulated/wall/r_wall/hull,
-/area/lucius/xeno)
-"tQ" = (
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"tR" = (
-/obj/machinery/atmospherics/omni/filter{
-	active_power_usage = 7500;
-	tag_east = 1;
-	tag_north = 2;
-	tag_south = 3
+/area/lucius/crew_quarters)
+"rG" = (
+/obj/structure/table/steel,
+/obj/item/device/pipe_painter,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/device/radio/intercom/broadcasting{
+	dir = 1;
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/lucius/atmos)
-"uw" = (
-/obj/structure/font/e,
+"rN" = (
+/obj/machinery/pipedispenser/disposal,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/fireaxecabinet{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/lucius/atmos)
+"rO" = (
+/obj/structure/font/u{
+	dir = 1;
+	icon_state = "u";
+	pixel_x = -12
+	},
 /turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"uD" = (
+/area/lucius/maintenance/first/starboard)
+"rX" = (
+/obj/machinery/cryopod,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6,
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/cryo)
+"sh" = (
 /obj/structure/font/u{
 	dir = 1;
 	icon_state = "u";
@@ -4123,36 +4148,188 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/sol,
 /area/lucius/bridge)
-"uR" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/atmos)
-"uZ" = (
-/obj/machinery/pipedispenser,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/lucius/atmos)
-"vk" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+"sy" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"sL" = (
+/obj/effect/catwalk_plated,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
+/area/lucius/crew_quarters)
+"tm" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/lucius/atmos)
+"tw" = (
+/obj/machinery/button/blast_door{
+	dir = 8;
+	id_tag = "lucius_ano_storage";
+	name = "Anomalous Storage Blast Door";
+	pixel_x = 24;
+	pixel_y = -24;
+	req_access = list("ACCESS_SOL_SCI")
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos/tank{
+	dir = 1;
+	icon_state = "map_vent_in";
+	id_tag = "lucius_ano_out";
+	internal_pressure_bound = 0;
+	internal_pressure_bound_default = 0
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/lucius/ano)
+"ug" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"un" = (
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/fore)
+"vd" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/device/radio/intercom/broadcasting{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
 /area/lucius/hallway/first/aft)
-"vx" = (
+"vl" = (
+/obj/effect/floor_decal/scglogo{
+	icon_state = "bottom-left"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"vK" = (
+/obj/structure/closet/emcloset,
+/obj/effect/floor_decal/corner/blue/full,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/fore)
+"vU" = (
+/obj/machinery/door/airlock/hatch/maintenance,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/tiled/techmaint,
+/area/lucius/maintenance/first/port)
+"wb" = (
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"ws" = (
+/turf/simulated/wall/r_wall,
+/area/lucius/xeno)
+"ww" = (
+/obj/machinery/atmospherics/unary/freezer{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"wz" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 9
+	},
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
+/area/lucius/atmos)
+"wA" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/xeno)
+"wK" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/machinery/atmospherics/valve/shutoff{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/shutoff{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/aft)
+"wV" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/obj/structure/closet/secure_closet/medical_torchsenior,
+/turf/simulated/floor/tiled/white,
+/area/lucius/med)
+"wX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
@@ -4164,31 +4341,59 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/lucius/atmos)
-"vS" = (
-/obj/structure/table/standard,
-/obj/structure/sign/warning/moving_parts{
-	dir = 1;
-	pixel_y = -32
-	},
-/obj/item/weapon/reagent_containers/food/snacks/monkeycube/wrapped,
-/obj/item/weapon/reagent_containers/food/snacks/monkeycube/wrapped,
-/obj/item/weapon/storage/firstaid/surgery,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/xeno)
-"vY" = (
-/obj/machinery/pipedispenser/disposal,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/fireaxecabinet{
-	pixel_y = -32
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/lucius/atmos)
-"wc" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
+"xd" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
+	},
+/obj/machinery/alarm/sol{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -24
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/ano)
+"xz" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/ano)
+"xO" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"xP" = (
+/obj/structure/font/four,
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"xU" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/reagentgrinder,
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"xV" = (
+/obj/machinery/atmospherics/tvalve{
+	dir = 1;
+	name = "Anomalous Chamber Supply Switching Valve"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/alarm/sol{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/ano)
+"xW" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
 /obj/structure/cable/green{
 	d1 = 1;
@@ -4197,27 +4402,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/lucius/cryo)
-"wd" = (
-/obj/machinery/alarm/sol{
-	pixel_y = 24
-	},
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/port)
-"we" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"wy" = (
-/obj/item/weapon/stool,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"wM" = (
+"xY" = (
 /obj/structure/hygiene/toilet{
 	dir = 1
 	},
@@ -4235,13 +4420,456 @@
 	},
 /obj/machinery/button/alternate/door/bolts{
 	dir = 8;
-	id_tag = "lucius_head_2";
+	id_tag = "lucius_head_1";
 	name = "Door Bolts";
 	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/lucius/crew_quarters)
-"wY" = (
+"ya" = (
+/turf/simulated/wall/r_wall,
+/area/lucius/crew_quarters)
+"yb" = (
+/obj/structure/table/steel,
+/obj/machinery/microwave,
+/obj/effect/floor_decal/borderfloor{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"ys" = (
+/obj/random/tool,
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/port)
+"yA" = (
+/obj/structure/font/e,
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"yR" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/civilian{
+	name = "Shower"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/crew_quarters)
+"yT" = (
+/obj/structure/navlight_shuttle{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/starboard)
+"yY" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 1;
+	name = "Gas From Buffer"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"zg" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/lucius/atmos)
+"zu" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	icon_state = "pdoor0";
+	id_tag = "lucius_ano_storage_blast";
+	name = "Anomalous Storage Observation Blast Door"
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
+/area/lucius/ano)
+"zv" = (
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/blue/border,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"zx" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/ano)
+"zA" = (
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/obj/machinery/alarm/sol{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -24
+	},
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/starboard)
+"zG" = (
+/obj/structure/font/s{
+	pixel_x = -12;
+	pixel_y = 0
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"Aw" = (
+/obj/machinery/light/navigation/delay2,
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"AI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor/corner2{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner2{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/advanced_airlock_controller{
+	id_tag = "lucius_xeno";
+	name = "Research Bay Access";
+	pixel_y = 24;
+	req_access = list("ACCESS_SOL_SCI");
+	tag_airpump = "lucius_xeno_pump";
+	tag_chamber_sensor = "lucius_xeno_sensor";
+	tag_exterior_door = "lucius_xeno_outer";
+	tag_exterior_sensor = "lucius_xeno_sensor_exterior";
+	tag_interior_door = "lucius_xeno_inner";
+	tag_interior_sensor = "lucius_xeno_sensor_interior"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/aft)
+"AO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 9
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/crew_quarters)
+"AP" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos/tank{
+	dir = 8;
+	icon_state = "map_vent_in";
+	id_tag = "lucius_xeno_out";
+	internal_pressure_bound = 0;
+	internal_pressure_bound_default = 0
+	},
+/turf/simulated/floor/reinforced,
+/area/lucius/xeno)
+"AT" = (
+/obj/structure/font/e{
+	icon_state = "e";
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/starboard)
+"AV" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 5
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Bt" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/computer/air_control{
+	dir = 1;
+	input_tag = "lucius_xeno_in";
+	name = "Chamber 1 Atmosphere Control Console";
+	output_tag = "lucius_xeno_out";
+	req_access = list("ACCESS_SOL_SCI");
+	sensor_name = "Xeno Research Chamber 1";
+	sensor_tag = "lucius_xeno"
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Bu" = (
+/obj/effect/floor_decal/industrial/warning/cee,
+/obj/structure/cable/green,
+/obj/machinery/power/apc/sol{
+	dir = 4;
+	icon_state = "apc0";
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/lucius/telecomms)
+"BA" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Cj" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 5
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/med)
+"CY" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/alarm/sol{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -24
+	},
+/turf/simulated/floor/reinforced,
+/area/lucius/xeno)
+"Da" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 11;
+	pixel_y = 5
+	},
+/obj/item/weapon/reagent_containers/glass/bucket,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"De" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/machinery/door/blast/regular/open{
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "lucius_bridge";
+	name = "Bridge Blast Doors"
+	},
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
+/area/lucius/bridge)
+"DJ" = (
+/obj/machinery/alarm/sol{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/crew_quarters)
+"DR" = (
+/obj/machinery/atmospherics/binary/pump{
+	name = "Gas to Buffer"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"DT" = (
+/turf/simulated/wall/r_wall/hull,
+/area/lucius/maintenance/first/starboard)
+"DV" = (
+/obj/item/weapon/stool,
+/obj/effect/floor_decal/borderfloor{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloor/corner2{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner2{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"EC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/access_button/airlock_interior{
+	master_tag = "lucius_xeno";
+	pixel_x = -32;
+	pixel_y = 24;
+	req_access = list("ACCESS_SOL_SCI")
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6,
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"EN" = (
+/obj/effect/shuttle_landmark/lucius/start,
+/turf/space,
+/area/space)
+"EP" = (
+/obj/machinery/bluespacerelay,
+/obj/effect/floor_decal/techfloor/hole/right{
+	icon_state = "techfloor_hole_right";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/lucius/telecomms)
+"Fs" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/xenobio,
+/obj/machinery/light/spot,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Fy" = (
+/obj/structure/table/rack,
+/obj/item/clothing/head/bio_hood/anomaly,
+/obj/item/clothing/suit/bio_suit/anomaly,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/mask/breath,
+/obj/item/weapon/tank/oxygen/yellow,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 6
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "lucius_xeno";
+	name = "Xeno Research Protective Blast Doors Control";
+	pixel_y = 24;
+	req_access = list("ACCESS_SOL_SCI")
+	},
+/obj/machinery/airlock_sensor/airlock_exterior{
+	id_tag = "lucius_xeno_sensor_exterior";
+	pixel_y = 32;
+	req_access = list("ACCESS_SOL_SCI")
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"FC" = (
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/starboard)
+"FD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"FJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/carpet/red,
+/area/lucius/crew_quarters)
+"FP" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/structure/disposaloutlet{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/cee,
+/obj/structure/sign/warning{
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/ano)
+"Gg" = (
+/obj/machinery/atmospherics/binary/pump/on,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/techmaint,
+/area/lucius/hallway/first/aft)
+"Gi" = (
+/obj/structure/font/dash,
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"Gm" = (
 /obj/structure/hygiene/sink/kitchen{
 	dir = 4;
 	pixel_x = -24
@@ -4269,133 +4897,7 @@
 	},
 /turf/simulated/floor/tiled,
 /area/lucius/crew_quarters)
-"xe" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/red,
-/obj/machinery/air_sensor{
-	id_tag = "lucius_ano"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/lucius/ano)
-"xn" = (
-/obj/machinery/computer/ship/navigation{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/corner/blue/three_quarters{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloorblack/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"xq" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm/sol{
-	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24
-	},
-/turf/simulated/floor/reinforced,
-/area/lucius/xeno)
-"xs" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow,
-/obj/machinery/computer/air_control{
-	dir = 1;
-	input_tag = "lucius_o2_in";
-	name = "Oxygen Tank Control Console";
-	output_tag = "lucius_o2_out";
-	req_access = list("ACCESS_SOL_ENG");
-	sensor_name = "Oxygen Tank";
-	sensor_tag = "lucius_o2"
-	},
-/obj/machinery/alarm/sol{
-	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/lucius/atmos)
-"xC" = (
-/obj/machinery/button/blast_door{
-	dir = 8;
-	id_tag = "lucius_ano_storage";
-	name = "Anomalous Storage Blast Door";
-	pixel_x = 24;
-	pixel_y = -24;
-	req_access = list("ACCESS_SOL_SCI")
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos/tank{
-	dir = 1;
-	icon_state = "map_vent_in";
-	id_tag = "lucius_ano_out";
-	internal_pressure_bound = 0;
-	internal_pressure_bound_default = 0
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/lucius/ano)
-"xG" = (
-/obj/structure/extinguisher_cabinet{
-	dir = 8;
-	pixel_x = 32
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/borderfloorblack{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloorblack/corner2{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner2{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"xM" = (
-/obj/effect/decal/cleanable/cobweb2,
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/starboard)
-"xN" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/door/blast/regular/open{
-	dir = 8;
-	icon_state = "pdoor0";
-	id_tag = "lucius_2";
-	name = "Second Compartment Lockdown Blast Doors"
-	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/techmaint,
-/area/lucius/maintenance/first/port)
-"xY" = (
+"Gp" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
 	},
@@ -4406,39 +4908,25 @@
 /obj/effect/floor_decal/steeldecal/steel_decals6,
 /turf/simulated/floor/tiled,
 /area/lucius/hallway/first/fore)
-"yl" = (
-/turf/simulated/wall/r_wall,
-/area/lucius/telecomms)
-"yq" = (
-/obj/effect/floor_decal/industrial/warning/cee,
-/obj/structure/cable/green,
-/obj/machinery/power/apc/sol{
-	dir = 4;
-	icon_state = "apc0";
-	pixel_x = 24
+"Gw" = (
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	icon_state = "pdoor0";
+	id_tag = "lucius_xeno";
+	name = "Xeno Research Protective Blast Doors"
 	},
-/turf/simulated/floor/tiled/techfloor,
-/area/lucius/telecomms)
-"yr" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet/red,
-/area/lucius/crew_quarters)
-"yy" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/obj/effect/wallframe_spawn/reinforced/bare,
+/obj/effect/wallframe_spawn/reinforced/hull,
 /obj/machinery/door/firedoor/sol,
-/obj/machinery/meter,
 /turf/simulated/floor/plating,
-/area/lucius/atmos)
-"yB" = (
-/obj/effect/floor_decal/borderfloorwhite/corner{
+/area/lucius/xeno)
+"Gx" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4448,165 +4936,8 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/lucius/med)
-"yC" = (
-/obj/effect/landmark/map_data{
-	height = 2
-	},
-/turf/space,
-/area/space)
-"yI" = (
-/obj/machinery/disposal,
-/obj/structure/disposalpipe/trunk,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"yO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"yT" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
 /area/lucius/ano)
-"zi" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/cryo)
-"zr" = (
-/obj/item/weapon/stool,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"zE" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/civilian{
-	id_tag = "lucius_head_1";
-	name = "Head"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/crew_quarters)
-"zF" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/universal,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/ano)
-"zI" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"zY" = (
-/obj/structure/table/glass,
-/obj/item/weapon/storage/firstaid/surgery,
-/obj/machinery/vending/wallmed1{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 6
-	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/med)
-"zZ" = (
-/obj/effect/floor_decal/borderfloor,
-/obj/effect/floor_decal/corner/blue/border,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"Af" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/reagentgrinder,
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Ah" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/extinguisher_cabinet{
-	dir = 8;
-	pixel_x = 32
-	},
-/turf/simulated/floor/carpet/red,
-/area/lucius/crew_quarters)
-"An" = (
-/obj/structure/closet/l3closet/scientist,
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/sign/warning/biohazard{
-	pixel_y = 32
-	},
-/obj/machinery/light_switch{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"AF" = (
+"Gz" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
@@ -4648,173 +4979,441 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/lucius/xeno)
-"AI" = (
-/obj/machinery/hologram/holopad,
-/obj/effect/floor_decal/corner/blue/mono,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"AO" = (
-/obj/structure/font/l{
-	dir = 1;
-	icon_state = "l";
-	pixel_x = -12
+"GG" = (
+/obj/item/weapon/beach_ball/holoball,
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
 	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
-"AU" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
-	dir = 9
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled,
 /area/lucius/crew_quarters)
-"Bg" = (
-/obj/machinery/atmospherics/binary/pump/on{
-	dir = 8;
-	name = "Waste to Filters"
+"GJ" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/steel_grid,
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = -32;
+	pixel_y = 4
+	},
+/obj/item/device/radio/intercom/broadcasting{
+	pixel_y = 24
+	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = -8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/ano)
+"GK" = (
+/obj/structure/font/l{
+	pixel_x = 12
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/bridge)
+"Hj" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	frequency = 1441;
+	id_tag = "lucius_o2_in"
+	},
+/turf/simulated/floor/reinforced/oxygen,
 /area/lucius/atmos)
-"Cb" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/blast/regular/open{
-	dir = 8;
-	icon_state = "pdoor0";
-	id_tag = "lucius_3";
-	name = "Third Compartment Lockdown Blast Doors"
+"Hv" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/tiled/techmaint,
+/area/lucius/hallway/first/aft)
+"HF" = (
+/obj/structure/table/standard,
+/obj/structure/sign/warning/moving_parts{
+	dir = 1;
+	pixel_y = -32
 	},
-/obj/machinery/door/airlock/research{
-	frequency = 1379;
-	id_tag = "lucius_xeno_outer";
-	name = "Research Bay Exterior Access"
+/obj/item/weapon/reagent_containers/food/snacks/monkeycube/wrapped,
+/obj/item/weapon/reagent_containers/food/snacks/monkeycube/wrapped,
+/obj/item/weapon/storage/firstaid/surgery,
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/xeno)
+"HZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/carpet/red,
+/area/lucius/crew_quarters)
+"Ic" = (
+/obj/machinery/air_sensor{
+	id_tag = "lucius_n2"
+	},
+/turf/simulated/floor/reinforced/nitrogen,
+/area/lucius/atmos)
+"Ix" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/lucius/hallway/first/aft)
+"Jg" = (
+/obj/effect/catwalk_plated/white,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/access_button/airlock_exterior{
-	master_tag = "lucius_xeno";
-	pixel_y = 24;
-	req_access = list("ACCESS_SOL_SCI")
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/lucius/xeno)
+"Jn" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"JE" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/bridge)
+"JM" = (
+/turf/simulated/wall/r_wall,
+/area/lucius/telecomms)
+"Ka" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/xeno)
+"Kb" = (
+/obj/structure/closet/l3closet/scientist,
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/sign/warning/biohazard{
+	pixel_y = 32
+	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Km" = (
+/obj/structure/navlight_shuttle/red{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"Kr" = (
+/obj/effect/floor_decal/corner/blue/full,
+/obj/machinery/disposal,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/sign/warning/deathsposal{
+	pixel_y = 32
+	},
+/obj/structure/disposalpipe/trunk,
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/fore)
+"Kt" = (
+/obj/structure/table/woodentable/maple,
+/obj/item/device/flashlight/lamp/green,
+/obj/item/weapon/paper_bin,
+/obj/machinery/alarm/sol{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -24
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/lucius/captain)
+"KD" = (
+/turf/simulated/wall/r_wall/hull,
+/area/lucius/xeno)
+"KN" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"KO" = (
+/obj/machinery/air_sensor{
+	id_tag = "lucius_o2"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos/tank{
+	dir = 1;
+	icon_state = "map_vent_in";
+	id_tag = "lucius_o2_out";
+	internal_pressure_bound = 0;
+	internal_pressure_bound_default = 0
+	},
+/turf/simulated/floor/reinforced/oxygen,
+/area/lucius/atmos)
+"KS" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
+/obj/machinery/air_sensor{
+	id_tag = "lucius_xeno"
+	},
+/turf/simulated/floor/reinforced,
+/area/lucius/xeno)
+"KW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/ano)
+"Lo" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/firstaid/surgery,
+/obj/machinery/vending/wallmed1{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/med)
+"LE" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	icon_state = "pdoor0";
+	id_tag = "lucius_xeno_2";
+	name = "Chamber Blast Doors"
+	},
+/obj/effect/wallframe_spawn/reinforced/bare,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
+/area/lucius/xeno)
+"LY" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/research{
+	frequency = 1379;
+	id_tag = "lucius_xeno_inner";
+	name = "Research Bay Interior Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
 	},
 /obj/machinery/door/firedoor/sol,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/lucius/xeno)
-"Ci" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8
-	},
-/obj/machinery/alarm/sol{
-	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/ano)
-"Cp" = (
-/turf/simulated/wall/r_wall/hull,
-/area/lucius/maintenance/first/starboard)
-"Cs" = (
-/obj/structure/font/c{
-	dir = 1;
-	icon_state = "c";
-	pixel_x = -12
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/bridge)
-"CA" = (
-/obj/effect/floor_decal/scglogo{
-	icon_state = "bottom-left"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"CS" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"De" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
-	dir = 5
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals4{
-	icon_state = "steel_decals4";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/med)
-"Dh" = (
-/obj/structure/bed/chair/comfy/blue{
-	dir = 8
-	},
-/obj/effect/floor_decal/scglogo{
-	icon_state = "center-left"
-	},
-/obj/effect/overmap/visitable/ship/landable/lucius,
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"Dl" = (
-/obj/random/tool,
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/port)
-"Dm" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/lucius/atmos)
-"Ds" = (
-/obj/machinery/computer/ship/engines{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/three_quarters{
+"Ml" = (
+/obj/machinery/computer/modular/preset/cardslot/command,
+/obj/effect/floor_decal/corner/blue/half,
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
-/obj/effect/floor_decal/borderfloorblack/corner{
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"Mm" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 11;
+	pixel_y = 5
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/weapon/storage/mirror{
+	pixel_x = 24;
+	pixel_y = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 9
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	icon_state = "steel_decals4";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/crew_quarters)
+"MP" = (
+/obj/structure/sign/warning/detailed{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 4
+	},
+/obj/structure/sign/warning/science{
+	pixel_y = 36
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/aft)
+"MT" = (
+/turf/simulated/wall/r_wall/hull,
+/area/lucius/bridge)
+"MW" = (
+/obj/machinery/door/blast/regular{
+	id_tag = "lucius_xeno_1_vent";
+	name = "Chamber Vent Doors"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/plating,
+/area/lucius/xeno)
+"NN" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"NT" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/cryo)
+"NZ" = (
+/obj/machinery/atmospherics/valve,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Oe" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/cryo)
+"Or" = (
+/obj/machinery/pipedispenser,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/lucius/atmos)
+"Oy" = (
+/obj/effect/floor_decal/borderfloorwhite/corner{
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"Dx" = (
-/obj/machinery/door/blast/regular/open{
-	dir = 2;
-	icon_state = "pdoor0";
-	id_tag = "lucius_xeno";
-	name = "Xeno Research Protective Blast Doors"
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
 	},
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/med)
+"OD" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/lucius/ano)
+"OJ" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/civilian{
+	id_tag = "lucius_head_1";
+	name = "Head"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/xeno)
-"Dz" = (
-/obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/port)
-"DD" = (
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/crew_quarters)
+"OP" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 10
 	},
@@ -4836,357 +5435,64 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/lucius/med)
-"DT" = (
-/obj/structure/font/four,
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"DY" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/machinery/computer/air_control{
-	dir = 1;
-	input_tag = "lucius_xeno_in";
-	name = "Chamber 1 Atmosphere Control Console";
-	output_tag = "lucius_xeno_out";
-	req_access = list("ACCESS_SOL_SCI");
-	sensor_name = "Xeno Research Chamber 1";
-	sensor_tag = "lucius_xeno"
-	},
-/obj/structure/extinguisher_cabinet{
-	dir = 1;
-	pixel_y = -32
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Er" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/structure/extinguisher_cabinet{
-	dir = 4;
-	pixel_x = -32;
-	pixel_y = 4
-	},
-/obj/item/device/radio/intercom/broadcasting{
-	pixel_y = 24
-	},
-/obj/machinery/light_switch{
-	dir = 4;
-	pixel_x = -24;
-	pixel_y = -8
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/ano)
-"EH" = (
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/obj/machinery/alarm/sol{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_y = -24
-	},
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/starboard)
-"ER" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"EY" = (
-/obj/machinery/bluespacerelay,
-/obj/effect/floor_decal/techfloor/hole/right{
-	icon_state = "techfloor_hole_right";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/lucius/telecomms)
-"Fc" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/research{
-	frequency = 1379;
-	id_tag = "lucius_xeno_inner";
-	name = "Research Bay Interior Access"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6
-	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/lucius/xeno)
-"Fp" = (
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/ano)
-"FT" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/red{
-	dir = 9
-	},
+"OX" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/ano)
-"FV" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/area/lucius/xeno)
+"Pb" = (
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/obj/machinery/access_button/airlock_interior{
-	master_tag = "lucius_xeno";
-	pixel_x = -32;
-	pixel_y = 24;
-	req_access = list("ACCESS_SOL_SCI")
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6,
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
+/obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Gn" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/wallframe_spawn/reinforced/hull,
-/obj/machinery/door/blast/regular/open{
-	dir = 8;
-	icon_state = "pdoor0";
-	id_tag = "lucius_bridge";
-	name = "Bridge Blast Doors"
-	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/bridge)
-"Gq" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/extinguisher_cabinet{
-	pixel_y = 32
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/xeno)
-"GA" = (
-/obj/machinery/atmospherics/binary/pump{
-	dir = 1;
-	name = "Gas From Buffer"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"GG" = (
-/obj/structure/font/i{
-	icon_state = "i";
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/bridge)
-"GN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/effect/floor_decal/borderfloor/corner2{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner2{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/embedded_controller/radio/airlock/advanced_airlock_controller{
-	id_tag = "lucius_xeno";
-	name = "Research Bay Access";
-	pixel_y = 24;
-	req_access = list("ACCESS_SOL_SCI");
-	tag_airpump = "lucius_xeno_pump";
-	tag_chamber_sensor = "lucius_xeno_sensor";
-	tag_exterior_door = "lucius_xeno_outer";
-	tag_exterior_sensor = "lucius_xeno_sensor_exterior";
-	tag_interior_door = "lucius_xeno_inner";
-	tag_interior_sensor = "lucius_xeno_sensor_interior"
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/aft)
-"GR" = (
-/obj/effect/catwalk_plated/white,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/junction/yjunction{
-	icon_state = "pipe-y";
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/lucius/xeno)
-"GS" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/tiled/techmaint,
-/area/lucius/hallway/first/aft)
-"GU" = (
-/obj/structure/font/dash,
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"HV" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/xeno)
-"Il" = (
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/xeno)
-"Iu" = (
-/obj/structure/font/s{
-	pixel_x = -12;
-	pixel_y = 0
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"IN" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/civilian{
-	name = "Shower"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/crew_quarters)
-"Jt" = (
-/obj/machinery/atmospherics/valve,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"JE" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
 	},
 /obj/structure/cable/green{
 	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
+	d2 = 4;
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"JG" = (
-/obj/effect/catwalk_plated/white,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
 /area/lucius/ano)
-"JO" = (
-/obj/machinery/atmospherics/binary/pump/on,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/techmaint,
-/area/lucius/hallway/first/aft)
-"JT" = (
-/obj/structure/table/rack,
-/obj/item/clothing/head/bio_hood/anomaly,
-/obj/item/clothing/suit/bio_suit/anomaly,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/mask/breath,
-/obj/item/weapon/tank/oxygen/yellow,
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	dir = 6
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "lucius_xeno";
-	name = "Xeno Research Protective Blast Doors Control";
-	pixel_y = 24;
-	req_access = list("ACCESS_SOL_SCI")
-	},
-/obj/machinery/airlock_sensor/airlock_exterior{
-	id_tag = "lucius_xeno_sensor_exterior";
-	pixel_y = 32;
-	req_access = list("ACCESS_SOL_SCI")
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"JX" = (
-/obj/structure/sign/warning/detailed{
-	pixel_y = 24
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
+"Pn" = (
+/obj/structure/font/c,
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/port)
+"Pq" = (
+/obj/machinery/cryopod{
 	dir = 4
 	},
-/obj/structure/sign/warning/science{
-	pixel_y = 36
+/obj/machinery/alarm/sol{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -24
 	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/cryo)
+"Pu" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled,
-/area/lucius/hallway/first/aft)
-"JZ" = (
-/obj/machinery/air_sensor{
-	id_tag = "lucius_o2"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos/tank{
-	dir = 1;
-	icon_state = "map_vent_in";
-	id_tag = "lucius_o2_out";
-	internal_pressure_bound = 0;
-	internal_pressure_bound_default = 0
-	},
-/turf/simulated/floor/reinforced/oxygen,
-/area/lucius/atmos)
-"Kh" = (
+/area/lucius/hallway/first/fore)
+"PE" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -5217,216 +5523,112 @@
 /obj/machinery/door/firedoor/sol,
 /turf/simulated/floor/tiled/monotile,
 /area/lucius/hallway/first/aft)
-"Ko" = (
-/obj/structure/font/five{
-	icon_state = "5";
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
-"Kr" = (
-/obj/structure/table/steel,
-/obj/effect/floor_decal/borderfloor{
-	dir = 5
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 5
-	},
-/obj/effect/floor_decal/borderfloor/corner2{
+"PL" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/blue/bordercorner2{
-	dir = 4
+/obj/machinery/firealarm{
+	pixel_y = 24
 	},
-/obj/machinery/reagentgrinder/juicer,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"KF" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/structure/extinguisher_cabinet{
-	dir = 8;
-	pixel_x = 32
-	},
-/obj/machinery/telecomms/bus/preset_lucius,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/lucius/telecomms)
-"KH" = (
-/obj/machinery/light,
-/turf/simulated/floor/carpet/red,
-/area/lucius/crew_quarters)
-"La" = (
-/turf/simulated/wall/r_wall,
-/area/lucius/xeno)
-"Lb" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
 	dir = 9
 	},
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/steel_grid,
 /area/lucius/atmos)
-"Lk" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/machinery/alarm/sol{
-	pixel_y = 24
-	},
-/turf/simulated/floor/plating,
-/area/lucius/maintenance/first/port)
-"Lm" = (
-/obj/effect/catwalk_plated/white,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+"PO" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/lucius/xeno)
-"Ln" = (
-/obj/effect/catwalk_plated,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/lucius/crew_quarters)
-"Lq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"LD" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"LX" = (
-/obj/machinery/atmospherics/binary/pump{
-	name = "Supply to Buffer"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/xeno)
-"Ml" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/effect/floor_decal/borderfloor/corner2{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/alarm/sol{
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/fore)
-"Ms" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_y = 32
-	},
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/hallway/first/fore)
-"MH" = (
-/obj/structure/hygiene/sink{
-	dir = 4;
-	pixel_x = 11;
-	pixel_y = 5
-	},
-/obj/item/weapon/reagent_containers/glass/bucket,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Ne" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/machinery/door/blast/regular/open{
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "lucius_2";
+	name = "Second Compartment Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/tiled/monotile,
+/area/lucius/hallway/first/aft)
+"PT" = (
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/ano)
+"Ql" = (
+/obj/machinery/computer/ship/engines{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Nz" = (
+/obj/effect/floor_decal/corner/blue/three_quarters{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"QI" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor/corner2{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/alarm/sol{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/hallway/first/fore)
+"QK" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
+/area/lucius/atmos)
+"QN" = (
 /obj/structure/font/c{
 	dir = 1;
 	icon_state = "c";
-	pixel_x = 0
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
-"NU" = (
-/obj/machinery/air_sensor{
-	id_tag = "lucius_n2"
-	},
-/turf/simulated/floor/reinforced/nitrogen,
-/area/lucius/atmos)
-"NX" = (
-/obj/structure/font/s{
-	dir = 1;
-	icon_state = "s";
-	pixel_x = 12
+	pixel_x = -12
 	},
 /turf/simulated/floor/shuttle_ceiling/sol,
 /area/lucius/bridge)
-"Oe" = (
-/obj/machinery/light/navigation/delay2,
+"QP" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/xeno)
+"QS" = (
+/obj/effect/landmark/map_data{
+	height = 2
+	},
+/turf/space,
+/area/space)
+"Ri" = (
+/obj/structure/font/dash{
+	icon_state = "dash";
+	dir = 1
+	},
 /turf/simulated/floor/shuttle_ceiling/sol,
 /area/lucius/maintenance/first/starboard)
-"Oy" = (
+"Rr" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
+/obj/machinery/smartfridge/seeds,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Rx" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 4;
 	pixel_y = 32
@@ -5448,234 +5650,34 @@
 	},
 /turf/simulated/floor/carpet/blue2,
 /area/lucius/captain)
-"OH" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
-/obj/machinery/air_sensor{
-	id_tag = "lucius_xeno"
-	},
-/turf/simulated/floor/reinforced,
-/area/lucius/xeno)
-"OS" = (
-/obj/machinery/atmospherics/binary/pump{
-	name = "Gas to Buffer"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"OZ" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/blast/regular/open{
-	dir = 2;
-	icon_state = "pdoor0";
-	id_tag = "lucius_ano_storage_blast";
-	name = "Anomalous Storage Observation Blast Door"
-	},
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/ano)
-"Pe" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"Pn" = (
-/obj/effect/catwalk_plated/white,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+"RF" = (
+/obj/machinery/computer/ship/navigation{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
 /obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
-/area/lucius/ano)
-"PM" = (
-/obj/structure/font/e{
-	icon_state = "e";
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
-"PW" = (
-/obj/item/weapon/beach_ball/holoball,
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+/obj/effect/floor_decal/corner/blue/three_quarters{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"Qz" = (
-/obj/machinery/atmospherics/valve,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"QF" = (
-/obj/machinery/light/small/emergency,
-/obj/machinery/vending/wallmed2{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/cryo)
-"QR" = (
-/obj/structure/hygiene/toilet{
+/obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/machinery/alarm/sol{
-	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 1
 	},
-/obj/machinery/button/alternate/door/bolts{
-	dir = 8;
-	id_tag = "lucius_head_1";
-	name = "Door Bolts";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/crew_quarters)
-"QU" = (
-/obj/structure/font/c,
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"QX" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/civilian{
-	id_tag = "lucius_head_2";
-	name = "Head"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/crew_quarters)
-"RV" = (
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/shipsensors,
-/turf/simulated/floor/shuttle_ceiling/sol,
+/turf/simulated/floor/tiled/dark,
 /area/lucius/bridge)
-"Sq" = (
-/obj/machinery/airlock_sensor{
-	id_tag = "lucius_xeno_sensor";
-	pixel_y = 24;
-	req_access = list("ACCESS_SOL_SCI")
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	id_tag = "lucius_xeno_pump"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Sr" = (
-/obj/item/weapon/stool,
-/obj/effect/floor_decal/borderfloor{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloor/corner2{
-	dir = 5
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner2{
-	dir = 5
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"Su" = (
-/obj/machinery/atmospherics/unary/freezer{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Sw" = (
-/turf/simulated/wall/r_wall,
-/area/lucius/crew_quarters)
-"Sx" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/cryo)
-"SQ" = (
-/obj/effect/catwalk_plated,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/lucius/crew_quarters)
-"SZ" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	controlled = 0;
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning/full,
-/obj/structure/sign/warning/vent_port{
-	dir = 4;
-	pixel_x = -32
-	},
+"RS" = (
 /turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/ano)
-"Tm" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 4;
-	frequency = 1441;
-	id_tag = "lucius_xeno_in"
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/reinforced,
 /area/lucius/xeno)
-"TE" = (
+"RW" = (
+/obj/machinery/light,
+/turf/simulated/floor/carpet/red,
+/area/lucius/crew_quarters)
+"SK" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -5690,43 +5692,9 @@
 	name = "Second Compartment Lockdown Blast Doors"
 	},
 /obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/tiled/monotile,
-/area/lucius/hallway/first/aft)
-"TQ" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lucius/bridge)
-"TT" = (
-/obj/structure/navlight_shuttle{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
-"TY" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/cryo)
-"Ui" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/techmaint,
-/area/lucius/hallway/first/aft)
-"UG" = (
+/area/lucius/maintenance/first/starboard)
+"SP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/blue{
 	dir = 10
 	},
@@ -5740,99 +5708,192 @@
 /obj/machinery/door/firedoor/sol,
 /turf/simulated/floor/plating,
 /area/lucius/xeno)
-"UK" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/structure/closet/secure_closet/xenobio,
-/obj/machinery/light/spot,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"UP" = (
-/turf/simulated/wall/r_wall/hull,
-/area/lucius/bridge)
-"UQ" = (
-/obj/structure/navlight_shuttle/red{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
-"UU" = (
-/obj/machinery/door/blast/regular{
-	id_tag = "lucius_xeno_1_vent";
-	name = "Chamber Vent Doors"
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
+"SQ" = (
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
-/area/lucius/xeno)
-"UW" = (
-/obj/structure/table/steel,
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/item/weapon/storage/mre/random,
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"Vf" = (
+/area/lucius/maintenance/first/starboard)
+"Tu" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
-/obj/machinery/atmospherics/valve/shutoff{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/shutoff{
-	dir = 4
-	},
 /turf/simulated/floor/tiled,
-/area/lucius/hallway/first/aft)
-"Vg" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
-/obj/machinery/smartfridge/seeds,
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Vm" = (
-/obj/structure/hygiene/sink{
-	pixel_y = -16
+/area/lucius/hallway/first/fore)
+"TN" = (
+/obj/machinery/light/small/red{
+	dir = 8
 	},
-/obj/effect/floor_decal/borderfloorwhite,
-/obj/effect/floor_decal/corner/blue/border,
-/obj/effect/floor_decal/borderfloorwhite/corner2,
-/obj/effect/floor_decal/corner/blue/bordercorner2,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/machinery/telecomms/bus/preset_lucius,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/lucius/telecomms)
+"TU" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 8
+	},
+/obj/effect/floor_decal/scglogo{
+	icon_state = "center-left"
+	},
+/obj/effect/overmap/visitable/ship/landable/lucius,
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"Ua" = (
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/med)
-"Vx" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/xeno)
-"Vy" = (
-/obj/structure/font/dash{
-	icon_state = "dash";
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/starboard)
-"Vz" = (
-/obj/structure/disposalpipe/segment/bent,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/lucius/telecomms)
+"Ug" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/civilian{
+	id_tag = "lucius_head_2";
+	name = "Head"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/tiled/white/monotile,
+/area/lucius/crew_quarters)
+"US" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "lucius_2";
+	name = "Second Compartment Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/tiled/techmaint,
+/area/lucius/maintenance/first/port)
+"Va" = (
+/obj/machinery/atmospherics/valve,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"Vg" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/alarm/sol{
+	pixel_y = 24
+	},
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/port)
+"VC" = (
+/obj/structure/closet/firecloset,
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/port)
+"Wh" = (
+/obj/structure/font/l{
+	dir = 1;
+	icon_state = "l";
+	pixel_x = -12
+	},
 /turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/ano)
-"We" = (
-/obj/effect/shuttle_landmark/lucius/start,
-/turf/space,
-/area/space)
+/area/lucius/maintenance/first/starboard)
+"Wl" = (
+/obj/structure/disposalpipe/segment/bent{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/xeno)
 "Wo" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = -32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/lucius/crew_quarters)
+"Wt" = (
+/obj/machinery/atmospherics/binary/pump/on{
+	dir = 8;
+	name = "Waste to Filters"
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/steel_grid,
+/area/lucius/atmos)
+"WA" = (
+/obj/machinery/alarm/sol{
+	pixel_y = 24
+	},
+/turf/simulated/floor/plating,
+/area/lucius/maintenance/first/port)
+"WL" = (
+/obj/machinery/airlock_sensor{
+	id_tag = "lucius_xeno_sensor";
+	pixel_y = 24;
+	req_access = list("ACCESS_SOL_SCI")
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	id_tag = "lucius_xeno_pump"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
+/area/lucius/xeno)
+"WR" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/machinery/computer/air_control{
+	dir = 1;
+	input_tag = "lucius_o2_in";
+	name = "Oxygen Tank Control Console";
+	output_tag = "lucius_o2_out";
+	req_access = list("ACCESS_SOL_ENG");
+	sensor_name = "Oxygen Tank";
+	sensor_tag = "lucius_o2"
+	},
+/obj/machinery/alarm/sol{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/lucius/atmos)
+"WU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 6
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	icon_state = "pdoor0";
+	id_tag = "lucius_xeno";
+	name = "Xeno Research Protective Blast Doors"
+	},
+/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/machinery/door/firedoor/sol,
+/turf/simulated/floor/plating,
+/area/lucius/xeno)
+"Xa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
@@ -5856,104 +5917,99 @@
 /obj/machinery/atmospherics/binary/passive_gate/on,
 /turf/simulated/floor/tiled/white,
 /area/lucius/ano)
-"Wt" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/xeno)
-"Wx" = (
-/obj/structure/table/woodentable/maple,
-/obj/item/device/flashlight/lamp/green,
-/obj/item/weapon/paper_bin,
+"Xm" = (
 /obj/machinery/alarm/sol{
 	dir = 1;
 	icon_state = "alarm0";
 	pixel_y = -24
 	},
-/turf/simulated/floor/carpet/blue2,
-/area/lucius/captain)
-"Xg" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
+/turf/simulated/floor/carpet/red,
+/area/lucius/crew_quarters)
+"XR" = (
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_x = 32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack/corner2{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner2{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"XX" = (
+/obj/structure/hygiene/toilet{
+	dir = 1
+	},
+/obj/machinery/firealarm{
 	dir = 1;
-	frequency = 1441;
-	id_tag = "lucius_o2_in"
-	},
-/turf/simulated/floor/reinforced/oxygen,
-/area/lucius/atmos)
-"Xw" = (
-/obj/structure/disposalpipe/segment/bent{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/xeno)
-"XY" = (
-/obj/machinery/cryopod{
-	dir = 4
+	pixel_y = -24
 	},
 /obj/machinery/alarm/sol{
 	dir = 4;
 	icon_state = "alarm0";
 	pixel_x = -24
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 8
+/obj/machinery/button/alternate/door/bolts{
+	dir = 8;
+	id_tag = "lucius_head_2";
+	name = "Door Bolts";
+	pixel_x = 24
 	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/cryo)
-"Ya" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 8
+/turf/simulated/floor/tiled/white,
+/area/lucius/crew_quarters)
+"Yr" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
 	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 8
-	},
-/obj/structure/extinguisher_cabinet{
-	dir = 4;
-	pixel_x = -32
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
+/turf/simulated/floor/tiled/dark,
+/area/lucius/bridge)
+"YE" = (
+/obj/effect/catwalk_plated/white,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"Yx" = (
-/obj/effect/catwalk_plated,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
+/turf/simulated/floor/plating,
+/area/lucius/ano)
+"YK" = (
+/obj/effect/catwalk_plated/white,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/junction/yjunction{
+	icon_state = "pipe-y";
+	dir = 1
+	},
 /turf/simulated/floor/plating,
-/area/lucius/crew_quarters)
-"YM" = (
-/obj/structure/table/steel,
-/obj/machinery/microwave,
-/obj/effect/floor_decal/borderfloor{
-	dir = 5
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 5
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled,
-/area/lucius/crew_quarters)
-"YS" = (
+/area/lucius/xeno)
+"YP" = (
 /obj/machinery/door/airlock/sol{
 	name = "Captain's Office"
 	},
@@ -5972,77 +6028,25 @@
 /obj/machinery/door/firedoor/sol,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/lucius/bridge)
-"Ze" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
+"YW" = (
+/obj/structure/font/c{
+	dir = 1;
+	icon_state = "c";
+	pixel_x = 0
 	},
-/obj/effect/floor_decal/industrial/warning{
+/turf/simulated/floor/shuttle_ceiling/sol,
+/area/lucius/maintenance/first/starboard)
+"ZC" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_x = 32
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/machinery/telecomms/bus/preset_lucius,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/lucius/telecomms)
-"Zp" = (
-/obj/machinery/cryopod,
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 4
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/cryo)
-"Zu" = (
-/obj/machinery/alarm/sol{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_y = -24
-	},
-/turf/simulated/floor/carpet/red,
-/area/lucius/crew_quarters)
-"Zz" = (
-/obj/machinery/alarm/sol{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_y = -24
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/lucius/crew_quarters)
-"ZJ" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/white/monotile,
-/area/lucius/xeno)
-"ZM" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	dir = 6
-	},
-/obj/machinery/door/blast/regular/open{
-	dir = 2;
-	icon_state = "pdoor0";
-	id_tag = "lucius_xeno";
-	name = "Xeno Research Protective Blast Doors"
-	},
-/obj/effect/wallframe_spawn/reinforced/hull,
-/obj/machinery/door/firedoor/sol,
-/turf/simulated/floor/plating,
-/area/lucius/xeno)
-"ZT" = (
-/obj/machinery/light/navigation/delay2,
-/turf/simulated/floor/shuttle_ceiling/sol,
-/area/lucius/maintenance/first/port)
 
 (1,1,1) = {"
 aa
@@ -6244,7 +6248,7 @@ aa
 aa
 aa
 aa
-yC
+QS
 "}
 (2,1,1) = {"
 aa
@@ -20485,11 +20489,11 @@ aa
 aF
 aF
 dz
-UP
+MT
 dG
 dG
 dG
-UP
+MT
 dz
 aF
 aF
@@ -20686,13 +20690,13 @@ aa
 aa
 aF
 aF
-oM
-UP
+kJ
+MT
 dt
 eM
 gn
-UP
-oM
+MT
+kJ
 aF
 aF
 aa
@@ -20886,14 +20890,14 @@ aa
 aa
 aa
 aF
-ol
-Gn
-Gn
-xn
+JE
+De
+De
+RF
 fd
-Dh
-CA
-Ds
+TU
+vl
+Ql
 dG
 dG
 aF
@@ -21088,16 +21092,16 @@ aa
 aa
 aa
 aF
-RV
-UP
+mY
+MT
 bW
-lV
+Yr
 dH
 eN
 go
 gT
 hC
-UP
+MT
 aF
 aF
 aa
@@ -21289,19 +21293,19 @@ aa
 aa
 aa
 aa
-NX
-UP
-UP
-om
-qY
+mx
+MT
+MT
+Ml
+lS
 dL
 eO
 gp
-qY
+lS
 gq
-UP
-UP
-qn
+MT
+MT
+GK
 aa
 aa
 aa
@@ -21491,20 +21495,20 @@ aa
 aa
 aa
 aa
-uD
-oM
+sh
+kJ
 bu
 bV
-TQ
+sy
 fx
 eP
 gq
-TQ
+sy
 hE
 ia
 iq
 iZ
-We
+EN
 aa
 aa
 aa
@@ -21693,10 +21697,10 @@ aa
 aa
 aa
 aa
-GG
-oM
+kj
+kJ
 bv
-xG
+XR
 cK
 dN
 eS
@@ -21895,18 +21899,18 @@ aa
 aa
 aa
 aa
-Cs
-UP
+QN
+MT
 bx
 cc
 cc
 dO
 cc
-YS
+YP
 cc
 cc
 bx
-UP
+MT
 iA
 aa
 aa
@@ -22097,14 +22101,14 @@ aa
 aa
 aa
 aa
-pb
-Cp
+rO
+DT
 aA
 bI
 cM
 dP
 fb
-Oy
+Rx
 gY
 fb
 ib
@@ -22299,8 +22303,8 @@ aa
 aa
 aa
 aa
-AO
-Cp
+Wh
+DT
 by
 bI
 cN
@@ -22311,7 +22315,7 @@ ha
 fb
 ib
 ir
-Iu
+zG
 aa
 aa
 aa
@@ -22502,18 +22506,18 @@ aa
 aa
 aa
 ad
-Cp
+DT
 aI
 bI
 cb
 dR
 fb
 fE
-Wx
+Kt
 fb
 ie
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -22704,7 +22708,7 @@ aa
 aa
 ad
 ad
-Cp
+DT
 bG
 aL
 cO
@@ -22715,8 +22719,8 @@ fe
 fe
 if
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -22905,20 +22909,20 @@ aa
 aa
 aa
 ad
-Cp
-Cp
+DT
+DT
 aA
 bI
-Ml
+QI
 dT
 fr
-sf
-DD
+wV
+OP
 fe
 ib
 ir
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -23107,21 +23111,21 @@ aa
 aa
 ad
 ad
-Cp
+DT
 aG
 bH
 bI
-Ms
+Tu
 dQ
 ez
 fa
-De
+Cj
 cd
 ib
 ib
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -23308,23 +23312,23 @@ aa
 aa
 ad
 ad
-Cp
-Cp
+DT
+DT
 aS
 bI
 bI
-pa
+un
 dQ
 fr
 ff
-Vm
+pw
 fe
 fe
 iv
 ir
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -23509,25 +23513,25 @@ aa
 aa
 ad
 ad
-Cp
-Cp
+DT
+DT
 aJ
 aG
 bI
-pD
-ld
+vK
+Pu
 di
 eu
 fn
-yB
+Oy
 fF
 fe
 ib
 iD
 ir
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -23709,28 +23713,28 @@ aa
 aa
 aa
 ad
-TT
-Cp
-Cp
-tr
+yT
+DT
+DT
+SQ
 aK
 aG
 bI
-kP
-xY
+Kr
+Gp
 dl
 fr
 fo
-lF
-zY
+mX
+Lo
 fe
 aU
 jy
 ib
 ir
 ir
-UQ
-tQ
+Km
+wb
 aa
 aa
 aa
@@ -23911,14 +23915,14 @@ aa
 aa
 aa
 ad
-Cp
-Cp
+DT
+DT
 aA
 aA
-Sw
-Sw
-Sw
-Sw
+ya
+ya
+ya
+ya
 cC
 dK
 eY
@@ -23932,7 +23936,7 @@ ib
 ib
 ir
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -24113,13 +24117,13 @@ aa
 aa
 aa
 ad
-Cp
+DT
 aj
 aA
-Sw
-Sw
+ya
+ya
 aW
-Ya
+Wo
 cy
 cD
 eQ
@@ -24127,14 +24131,14 @@ fi
 fp
 fq
 ft
-XY
+Pq
 fp
 eY
 eY
 iH
 iN
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -24315,11 +24319,11 @@ aa
 aa
 aa
 ad
-Cp
+DT
 al
 aD
 as
-wY
+Gm
 ak
 cr
 cz
@@ -24331,12 +24335,12 @@ hL
 hL
 jp
 is
-QF
+lT
 eY
 iI
 iO
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -24516,29 +24520,29 @@ aa
 aa
 aa
 aa
-Oe
-Cp
+qb
+DT
 am
 au
-Sw
-Kr
+ya
+kr
 an
-zZ
-AI
-PW
+zv
+kL
+GG
 eT
 fj
 fu
-zi
-Sx
-TY
-wc
+NT
+xW
+Oe
+jG
 jD
 js
 jj
 jx
 ir
-ZT
+Aw
 aa
 aa
 aa
@@ -24719,20 +24723,20 @@ aa
 aa
 aa
 ad
-Cp
+DT
 ap
 iP
-Sw
-Sw
+ya
+ya
 bY
 cs
-we
+ug
 cF
 eU
 fi
 fv
 fA
-Zp
+rX
 fM
 fv
 eY
@@ -24740,7 +24744,7 @@ eY
 iG
 iQ
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -24921,14 +24925,14 @@ aa
 aa
 aa
 ad
-Cp
-Cp
+DT
+DT
 aA
 aA
-Sw
-YM
+ya
+yb
 ct
-Pe
+qA
 cG
 eV
 eY
@@ -24942,7 +24946,7 @@ ib
 ib
 ir
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -25124,27 +25128,27 @@ aa
 aa
 ad
 ad
-Cp
-Cp
+DT
+DT
 aA
-Sw
-Sw
+ya
+ya
 cv
 cA
 cY
 eU
 fm
 fy
-Sw
+ya
 fK
 gI
-Sw
+ya
 ib
 ib
 ir
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -25327,25 +25331,25 @@ aa
 aa
 ad
 ad
-Cp
+DT
 aA
 aA
-Sw
+ya
 cw
 cB
-wy
-Ln
-rK
-rK
-IN
-AU
-Zz
-Sw
+lp
+sL
+pR
+pR
+yR
+AO
+DJ
+ya
 ib
-nQ
+VC
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -25529,24 +25533,24 @@ aa
 aa
 aa
 ad
-Cp
-Cp
+DT
+DT
 aL
-Sw
+ya
 dM
 eB
 cA
 eU
 iC
-KH
-Sw
-Sw
-Sw
-Sw
-pH
+RW
+ya
+ya
+ya
+ya
+vU
 ir
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -25732,23 +25736,23 @@ aa
 aa
 ad
 ad
-Cp
+DT
 aA
-Sw
+ya
 bc
-UW
-zr
-Yx
-yr
-yr
-QX
-kU
-wM
-Sw
+nA
+lN
+rC
+FJ
+FJ
+Ug
+Mm
+XX
+ya
 ib
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -25934,22 +25938,22 @@ aa
 aa
 aa
 ad
-Cp
-EH
-Sw
+DT
+zA
+ya
 bd
-nx
+Jn
 cA
 eU
 jd
-Zu
-Sw
-Sw
-Sw
-Sw
-Lk
+Xm
+ya
+ya
+ya
+ya
+Vg
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -26136,22 +26140,22 @@ aa
 aa
 aa
 ad
-Cp
+DT
 aA
-Sw
+ya
 bK
-Sr
-LD
-SQ
-yr
-Ah
-zE
-kU
-QR
-Sw
+DV
+ls
+qh
+FJ
+HZ
+OJ
+Mm
+xY
+ya
 ib
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -26338,22 +26342,22 @@ aa
 aa
 aa
 ad
-Cp
-nT
+DT
+SK
 ax
 ax
 ax
-TE
-Kh
-yl
-yl
-yl
-yl
-yl
-yl
-xN
+PO
+PE
+JM
+JM
+JM
+JM
+JM
+JM
+US
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -26540,26 +26544,26 @@ aa
 aa
 aa
 ad
-Cp
+DT
 aA
 ax
-Ui
+ok
 ce
 cP
 dU
-yl
-kd
+JM
+oP
 hb
-pW
-EY
-yl
+TN
+EP
+JM
 ib
 ir
-tQ
+wb
 aa
 aa
 aa
-aa
+ks
 aa
 aa
 aa
@@ -26742,22 +26746,22 @@ aa
 aa
 aa
 ad
-Cp
+DT
 af
 ax
-GS
-JO
+Hv
+Gg
 cP
 dV
 fO
 gt
 gt
-Ze
-yq
+Ua
+Bu
 it
-Dz
+lm
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -26944,22 +26948,22 @@ aa
 aa
 aa
 ad
-Cp
+DT
 aA
 ax
 ax
 cg
 cR
 dX
-yl
+JM
 gu
 hd
-KF
-yl
-yl
+ZC
+JM
+JM
 ib
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -27146,11 +27150,11 @@ aa
 aa
 aa
 ad
-Cp
-xM
+DT
+FC
 aA
 bI
-mr
+vd
 cQ
 dZ
 dZ
@@ -27161,7 +27165,7 @@ dZ
 ib
 ib
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -27348,22 +27352,22 @@ aa
 aa
 aa
 ad
-Cp
-Cp
+DT
+DT
 aI
 bI
-Vf
+wK
 cS
 ea
-tR
-xs
+pA
+WR
 he
-Xg
+Hj
 dZ
-tg
+qt
 ir
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -27551,21 +27555,21 @@ aa
 aa
 ad
 ad
-Cp
+DT
 aM
 bI
-lx
-vk
-Lb
-Dm
-mQ
-yy
-JZ
+qK
+mS
+wz
+zg
+oW
+no
+KO
 dZ
 ib
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -27753,20 +27757,20 @@ aa
 aa
 aa
 ab
-Cp
+DT
 aN
 bI
 ci
-tu
+Ix
 dZ
-oK
+PL
 ed
 dZ
 dZ
 dZ
-wd
+WA
 ir
-uw
+yA
 aa
 aa
 aa
@@ -27954,8 +27958,8 @@ aa
 aa
 aa
 aa
-Ko
-Cp
+oJ
+DT
 aA
 bI
 cq
@@ -27966,9 +27970,9 @@ hM
 he
 iB
 dZ
-Dl
+ys
 ir
-QU
+Pn
 aa
 aa
 aa
@@ -28156,21 +28160,21 @@ aa
 aa
 aa
 aa
-Vy
-Cp
+Ri
+DT
 aP
 bO
 cm
 cT
-uR
+QK
 fR
 gw
-yy
+no
 hN
 dZ
 ib
 ir
-GU
+Gi
 aa
 aa
 aa
@@ -28358,21 +28362,21 @@ aa
 aa
 aa
 aa
-Nz
-Cp
+YW
+DT
 aQ
 bI
 bN
 cV
-uR
-Bg
-rh
+QK
+Wt
+oO
 hg
-NU
+Ic
 dZ
 aU
 ir
-lP
+ky
 aa
 aa
 aa
@@ -28560,21 +28564,21 @@ aa
 aa
 aa
 aa
-PM
-Cp
-Cp
+AT
+DT
+DT
 bI
-JX
+MP
 ee
 dZ
 hn
-vx
+wX
 dZ
 dZ
 dZ
 ir
 ir
-DT
+xP
 aa
 aa
 aa
@@ -28764,19 +28768,19 @@ aa
 aa
 ad
 ad
-Cp
+DT
 bI
-GN
+AI
 dJ
 ef
 fT
-nu
+tm
 hi
-nS
+rG
 dZ
 ir
-tQ
-tQ
+wb
+wb
 aa
 aa
 aa
@@ -28965,19 +28969,19 @@ aa
 aa
 aa
 aa
-Il
-tx
-La
-Fc
+RS
+KD
+ws
+LY
 cW
 dZ
 fU
 gx
 hj
-vY
+rN
 dZ
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -29167,19 +29171,19 @@ aa
 aa
 aa
 aa
-Il
-tx
-Sq
-FV
+RS
+KD
+WL
+EC
 cX
 dZ
 fV
 gy
 hk
-uZ
+Or
 dZ
 ir
-tQ
+wb
 aa
 aa
 aa
@@ -29369,10 +29373,10 @@ aa
 aa
 aa
 aa
-Il
-tx
-La
-Cb
+RS
+KD
+ws
+lK
 cZ
 dZ
 dZ
@@ -29381,7 +29385,7 @@ dZ
 dZ
 dZ
 ir
-ER
+xO
 aa
 aa
 aa
@@ -29571,19 +29575,19 @@ aa
 aa
 aa
 aa
-Il
-tx
-An
-Ne
+RS
+KD
+Kb
+NN
 db
 ep
 fX
 gA
 hm
-Tm
+oS
 hz
-UU
-nB
+MW
+OX
 aa
 aa
 aa
@@ -29773,19 +29777,19 @@ aa
 aa
 aa
 aa
-Il
-tx
-JT
-yO
+RS
+KD
+Fy
+nG
 dd
 eq
 fY
 gB
 jb
-OH
+KS
 hz
-UU
-nB
+MW
+OX
 aa
 aa
 aa
@@ -29975,19 +29979,19 @@ aa
 aa
 aa
 aa
-Il
-ZM
-LX
+RS
+WU
+mf
 dr
 de
 er
 fZ
 gC
 ho
-pP
+AP
 hz
-UU
-nB
+MW
+OX
 aa
 aa
 aa
@@ -30177,19 +30181,19 @@ aa
 aa
 aa
 aa
-Il
-UG
+RS
+SP
 bZ
 cp
-Su
-Lm
-DY
-La
-La
-La
-La
-tx
-kb
+ww
+Jg
+Bt
+ws
+ws
+ws
+ws
+KD
+wA
 aa
 aa
 aa
@@ -30379,19 +30383,19 @@ aa
 aa
 aa
 aa
-Il
-Dx
-ZJ
-OS
+RS
+Gw
+kg
+DR
 df
 es
-AF
+Gz
 gD
 hm
-xq
+CY
 hz
 iy
-nB
+OX
 aa
 aa
 aa
@@ -30581,19 +30585,19 @@ aa
 aa
 aa
 aa
-Il
-tx
-Gq
-GA
-Af
-JE
-rx
+RS
+KD
+Ka
+yY
+xU
+jF
+AV
 gE
 ht
 hP
 hz
 iy
-nB
+OX
 aa
 aa
 aa
@@ -30783,19 +30787,19 @@ aa
 aa
 aa
 aa
-Il
-tx
+RS
+KD
 jc
-Jt
-Vg
-Lq
-yI
-qB
+Va
+Rr
+FD
+BA
+LE
 ho
 hR
 hz
 iy
-nB
+OX
 aa
 aa
 aa
@@ -30985,19 +30989,19 @@ aa
 aa
 aa
 aa
-Il
-Dx
+RS
+Gw
 bg
-Jt
+Va
 dg
-Lm
-UK
-La
-La
-La
-La
-tx
-Vx
+Jg
+Fs
+ws
+ws
+ws
+ws
+KD
+QP
 aa
 aa
 aa
@@ -31187,19 +31191,19 @@ aa
 aa
 aa
 aa
-Il
-Dx
+RS
+Gw
 bg
-Jt
-pr
-Lm
-Wt
+Va
+pV
+Jg
+oM
 gG
-La
+ws
 hT
 ik
-tx
-Il
+KD
+RS
 aa
 aa
 aa
@@ -31389,19 +31393,19 @@ aa
 aa
 aa
 aa
-Xw
-Dx
+Wl
+Gw
 bj
-Qz
-qm
-GR
-Wt
-vS
-La
+NZ
+om
+YK
+oM
+HF
+ws
 hZ
 il
-tx
-Il
+KD
+RS
 aa
 aa
 aa
@@ -31591,19 +31595,19 @@ aa
 aa
 aa
 aa
-HV
-tx
+pI
+KD
 bk
-CS
+lF
 dj
-zI
-pp
+KN
+ov
 gJ
 hq
 hV
 ih
-tx
-Il
+KD
+RS
 aa
 aa
 aa
@@ -31793,19 +31797,19 @@ aa
 aa
 aa
 aa
-HV
-tx
+pI
+KD
 bl
-MH
+Da
 dm
 ew
 dW
 gK
-La
+ws
 gZ
 iW
-tx
-Il
+KD
+RS
 aa
 aa
 aa
@@ -31995,19 +31999,19 @@ aa
 aa
 aa
 aa
-HV
-tx
-tx
-La
-La
+pI
+KD
+KD
+ws
+ws
 ey
-La
-La
-La
-La
-tx
-tx
-Il
+ws
+ws
+ws
+ws
+KD
+KD
+RS
 aa
 aa
 aa
@@ -32197,19 +32201,19 @@ aa
 aa
 aa
 aa
-Vz
-lN
+oj
+FP
 bL
-Er
-mF
-tp
-nc
+GJ
+mV
+pD
+xV
 gH
 gM
 hW
 jl
-SZ
-Fp
+jN
+PT
 aa
 aa
 aa
@@ -32400,17 +32404,17 @@ aa
 aa
 aa
 aa
-Fp
+PT
 bL
 aZ
-zF
-Wo
-qV
+Pb
+Xa
+Gx
 hp
-xe
+ke
 hX
 bb
-FT
+KW
 aa
 aa
 aa
@@ -32602,17 +32606,17 @@ aa
 aa
 aa
 aa
-Fp
+PT
 bL
 bw
 bM
 cj
 dC
 gH
-xC
+tw
 ig
 jl
-ti
+zx
 aa
 aa
 aa
@@ -32804,17 +32808,17 @@ aa
 aa
 aa
 aa
-Fp
+PT
 bL
 bz
-Pn
+pp
 ck
 dB
 dB
 jk
 dB
 bL
-ss
+xz
 aa
 aa
 aa
@@ -33006,17 +33010,17 @@ aa
 aa
 aa
 aa
-Fp
+PT
 bL
 bF
-JG
+YE
 co
-OZ
-Ci
-yT
+zu
+xd
+OD
 hY
 bL
-Fp
+PT
 aa
 aa
 aa
@@ -33208,7 +33212,7 @@ aa
 aa
 aa
 aa
-Fp
+PT
 bL
 bL
 bX
@@ -33218,7 +33222,7 @@ ec
 ek
 bL
 bL
-Fp
+PT
 aa
 aa
 aa
@@ -33410,8 +33414,8 @@ aa
 aa
 aa
 aa
-Fp
-Fp
+PT
+PT
 bL
 bL
 bL
@@ -33419,8 +33423,8 @@ bL
 bL
 bL
 bL
-Fp
-Fp
+PT
+PT
 aa
 aa
 aa
@@ -33612,17 +33616,17 @@ aa
 aa
 aa
 aa
-Fp
-Fp
-Fp
+PT
+PT
+PT
 cf
 cf
-Fp
+PT
 cf
 cf
-Fp
-Fp
-Fp
+PT
+PT
+PT
 aa
 aa
 aa
@@ -33815,15 +33819,15 @@ aa
 aa
 aa
 aa
-Fp
-Fp
-Fp
+PT
+PT
+PT
 cf
-Fp
+PT
 cf
-Fp
-Fp
-Fp
+PT
+PT
+PT
 aa
 aa
 aa
@@ -34019,11 +34023,11 @@ aa
 aa
 bt
 aa
-Fp
-Fp
-Fp
-Fp
-Fp
+PT
+PT
+PT
+PT
+PT
 aa
 bt
 aa

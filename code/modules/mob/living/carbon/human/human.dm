@@ -34,16 +34,16 @@
 		if(mind)
 			mind.name = real_name
 
-	hud_list[HEALTH_HUD]      = new /image/hud_overlay('icons/mob/hud_med.dmi', src, "100")
-	hud_list[STATUS_HUD]      = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudhealthy")
-	hud_list[LIFE_HUD]	      = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudhealthy")
-	hud_list[ID_HUD]          = new /image/hud_overlay(GLOB.using_map.id_hud_icons, src, "hudunknown")
-	hud_list[WANTED_HUD]      = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudblank")
-	hud_list[IMPLOYAL_HUD]    = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudblank")
-	hud_list[IMPCHEM_HUD]     = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudblank")
-	hud_list[IMPTRACK_HUD]    = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudblank")
-	hud_list[SPECIALROLE_HUD] = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudblank")
-	hud_list[STATUS_HUD_OOC]  = new /image/hud_overlay('icons/mob/hud.dmi', src, "hudhealthy")
+	hud_list[HEALTH_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "100") //ARK
+	hud_list[STATUS_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudhealthy") //ARK
+	hud_list[LIFE_HUD]	      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudhealthy") //ARK
+	hud_list[ID_HUD]          = new /image/hud_overlay(GLOB.using_map.id_hud_icons, src, "hudunknown") //ARK
+	hud_list[WANTED_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[IMPLOYAL_HUD]    = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[IMPCHEM_HUD]     = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[IMPTRACK_HUD]    = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[SPECIALROLE_HUD] = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[STATUS_HUD_OOC]  = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudhealthy") //ARK
 
 	GLOB.human_mob_list |= src
 	..()
@@ -345,7 +345,9 @@
 		if((def_zone == BP_R_FOOT || def_zone == BP_R_LEG) && standing[BP_R_FOOT])
 			floor_organ = standing[BP_R_FOOT]
 		else
-			floor_organ = standing[pick(standing)]
+			floor_organ = DEFAULTPICK(standing, null)
+			if (floor_organ)
+				floor_organ = standing[floor_organ]
 
 	if(!floor_organ)
 		floor_organ = pick(organs)
@@ -566,7 +568,7 @@
 	var/total_protection = flash_protection
 	if(species.has_organ[species.vision_organ])
 		var/obj/item/organ/internal/eyes/I = internal_organs_by_name[species.vision_organ]
-		if(!I.is_usable())
+		if(!I?.is_usable())
 			return FLASH_PROTECTION_MAJOR
 		else
 			total_protection = I.get_total_protection(flash_protection)
@@ -712,9 +714,9 @@
 		if(stomach.ingested.total_volume)
 			stomach.ingested.trans_to_holder(D.reagents, 15)
 		return
-			
+
 	var/turf/location = loc
-	
+
 	visible_message(SPAN_DANGER("\The [src] throws up!"),SPAN_DANGER("You throw up!"))
 	playsound(loc, 'sound/effects/splat.ogg', 50, 1)
 	if(istype(location, /turf/simulated))

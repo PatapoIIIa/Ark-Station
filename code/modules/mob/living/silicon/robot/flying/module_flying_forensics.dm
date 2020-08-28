@@ -5,7 +5,7 @@
 	networks = list(NETWORK_SECURITY)
 	subsystems = list(
 		/datum/nano_module/crew_monitor,
-		/datum/nano_module/digitalwarrant,
+		/datum/nano_module/program/digitalwarrant,
 		/datum/nano_module/records
 	)
 	sprites = list(
@@ -34,7 +34,8 @@
 		SKILL_COMPUTER            = SKILL_EXPERT,
 		SKILL_FORENSICS           = SKILL_PROF,
 		SKILL_WEAPONS             = SKILL_EXPERT,
-		SKILL_CONSTRUCTION        = SKILL_ADEPT
+		SKILL_CONSTRUCTION        = SKILL_ADEPT,
+		SKILL_ANATOMY             = SKILL_ADEPT
 	)
 
 /obj/item/weapon/robot_module/flying/forensics/respawn_consumable(var/mob/living/silicon/robot/R, var/amount)

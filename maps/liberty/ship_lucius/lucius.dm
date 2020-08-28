@@ -16,7 +16,7 @@
 
 // TEMPLATE
 
-/datum/map_template/ruin/away_site/lucius
+/datum/map_template/ruin/away_site/luciusship
 	name = "SEV Lucius"
 	id = "awaysite_lucius"
 	description = "Sol Exploration Vessel Lucius."
@@ -28,6 +28,7 @@
 
 /obj/effect/overmap/visitable/sector/luciusspace
 	name = "Empty Sector"
+	icon_state = "dust"
 	in_space = 1
 	hide_from_reports = TRUE
 
